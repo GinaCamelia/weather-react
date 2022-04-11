@@ -2,14 +2,12 @@ import './App.css';
 import Weather from "./Weather";
 import Footer from "./Footer";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
+    <div className="App text-center lh-lg mt-5">
         <h1>Hello from React</h1>
         <Weather city="Bucharest"/>
         <Footer />
     </div>
   );
 }
-
-export default App;
