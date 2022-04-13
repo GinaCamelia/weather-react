@@ -1,4 +1,9 @@
-.links {
-    text-decoration: none;
-    color:aqua;
+.App {
+    background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 40px;
+}
+.App .Footer {
+    font-size: 12px;
 }
