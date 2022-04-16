@@ -14,7 +14,7 @@ export default function WeatherInfo(props) {
                       <span>
                             <FormattedDate date={props.data.date} />
                         </span>
-                      <span cclassName="city">{props.data.city}</span> <br />
+                      <span className="city">{props.data.city}</span> <br />
                       <WeatherTemperature celsius={props.data.temperature} />
                       <WeatherIcon code={props.data.icon} rel="noreferrer" />
                       <span className="description text-capitalize">{props.data.description}</span>

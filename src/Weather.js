@@ -43,7 +43,7 @@ function handleCityChange(event) {
                     <form onSubmit = {handleSubmit} id="search-form">
                          <input
                            type="search"
-                           class="form-control mb-1"
+                           className="form-control mb-1"
                            id="search-text-input"
                            placeholder="Enter a city"
                            onChange = {handleCityChange}
