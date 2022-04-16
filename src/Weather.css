@@ -1,7 +1,7 @@
 body {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
     background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
-  }
+}
   .border {
     padding: 40px;
   }
@@ -48,21 +48,21 @@ body {
     width: 50%;
   }
   .form-control {
-    border: 1px solid #0CCAF0;
+    border: 1px solid #0CCAF0 !important;
   }
-  .primary {
+  .btn-outline-secondary.second {
     background-color: white;
-    border: 1px solid #0CCAF0;
+    border: 1px solid #0CCAF0 !important;
   }
-  .primary:hover {
+  .btn-outline-secondary.second:hover {
     background-color: #0CCAF0;
     transition: all 200ms ease-in-out;
   }
-  .second {
+  .btn-outline-secondary.primary {
     background-color: white;
-    border: 1px solid #0CCAF0;
+    border: 1px solid #0CCAF0 !important;
   }
-  .second:hover {
+  .btn-outline-secondary.primary:hover {
     background-color: #0CCAF0;
     transition: all 200ms ease-in-out;
   }
@@ -75,13 +75,12 @@ body {
     display: block;
     margin: 0 auto;
     text-align: center;
-    max-width: 100%;
   }
   .square {
     display: table;
-    padding-inline-end: 0;
     margin: 0 auto;
-    padding: 20px;
+    padding-inline-end: 0;
+    padding: 5px;
     padding-bottom: 20px;
     max-width: 75%;
   }
@@ -126,7 +125,6 @@ body {
   canvas {
     display: block;
     margin: 0 auto;
-    color: #212529;
     margin-top: 6px;
     margin-bottom: 5px;
   }
@@ -134,22 +132,19 @@ body {
     opacity: 0.5;
   }
   .city {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
-    font-weight: 400;
   }
   .temp {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
-    line-height: 39px;
-    margin-top: 6px;
+    line-height: 45px;
     padding-left: 5px;
     vertical-align: top;
   }
   a .units {
-    line-height: 26px;
     vertical-align: top;
-    font-size: 15px;
+    font-size: 10px;
     margin-left: 5px;
   }
   a .units:hover {
