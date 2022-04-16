@@ -50,14 +50,14 @@ function handleCityChange(event) {
                            aria-label="Enter a city"
                            aria-describedby="basic-addon2"
                          />
-                       <div class="input-group-append"> 
+                       <div className="input-group-append"> 
                         <button 
                            type="Submit" 
                            value="Search" 
-                           class="btn btn-outline-secondary primary">Search</button>
+                           className="btn btn-outline-secondary primary">Search</button>
                         <button
                         type="button" 
-                        class="btn btn-outline-secondary second">Location</button>
+                        className="btn btn-outline-secondary second">Location</button>
                        </div>
                     </form>
                 </div>
