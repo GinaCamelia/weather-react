@@ -1,4 +1,5 @@
 .App {
+    font-family: "Montserrat", sans-serif;
     background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
     max-width: 800px;
     margin: 30px auto;
