@@ -78,10 +78,8 @@ body {
     display: table;
     text-align: left;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 5px;
     line-height: 35px;
-    border: 1px solid #08CAF0;
-    border-radius: 5px;
     padding-inline-end: 0;
     padding: 15px;
     max-width: 85%;
