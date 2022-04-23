@@ -4,6 +4,7 @@ body {
 }
   .border {
     padding: 40px;
+    border: 1px solid #08caf0 !important;
   }
   .input-group {
     display: flex;
@@ -48,22 +49,22 @@ body {
     width: 50%;
   }
   .form-control {
-    border: 1px solid #0CCAF0 !important;
+    border: 1px solid #347474 !important;
   }
   .btn-outline-secondary.second {
     background-color: white;
-    border: 1px solid #0CCAF0 !important;
+    border: 1px solid #347474 !important;
   }
   .btn-outline-secondary.second:hover {
-    background-color: #0CCAF0;
+    background-color: #347474;
     transition: all 200ms ease-in-out;
   }
   .btn-outline-secondary.primary {
     background-color: white;
-    border: 1px solid #0CCAF0 !important;
+    border: 1px solid #347474 !important;
   }
   .btn-outline-secondary.primary:hover {
-    background-color: #0CCAF0;
+    background-color: #347474;
     transition: all 200ms ease-in-out;
   }
   .display-input strong {
@@ -91,11 +92,11 @@ body {
     text-align: center;
   }
   .email {
-    color: #a21232;
+    color: #347474;
     font-weight: bolder;
   }
   .instagram {
-    color: #a21232;
+    color: #347474;
     font-weight: bolder;
   }
   .link {
@@ -104,15 +105,17 @@ body {
     cursor: pointer;
   }
   .link:hover {
-    color: #a21232;
+    color: #347474;
     text-decoration: none;
   }
   .link-github {
     display: block;
     text-align: center;
   }
-  .border-info {
+  .border-light {
     text-align: center;
+    border: 1px solid #347474 !important;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   }
   .card-header {
   font-size: 16px; 
@@ -125,7 +128,6 @@ body {
   canvas {
     text-align: left;
     margin: 0 auto;
-    margin-right: auto;
     margin-left: auto;
   }
   .icon {
@@ -141,6 +143,7 @@ body {
   .city {
     font-size: 28px;
     font-weight: bold;
+    color: #347474;
   }
   .temp {
     font-size: 30px;
@@ -148,6 +151,7 @@ body {
     line-height: 43px;
     padding-left: 5px;
     vertical-align: top;
+    color: #347474;
   }
   a .units {
     vertical-align: top;
@@ -156,4 +160,8 @@ body {
   }
   a .units:hover {
     text-decoration: none;
+    color: #347474;
+  }
+  .square .wind, .pressure, .humidity, .feels-like {
+    color: #347474;
   }

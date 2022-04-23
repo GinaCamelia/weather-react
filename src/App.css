@@ -5,6 +5,10 @@
     margin: 30px auto;
     padding: 40px;
 }
+.App .border {
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+}
 .App .Footer {
     font-size: 12px;
 }

@@ -6,10 +6,10 @@ export default function WeatherForecast() {
         <div className="WeatherForecast">
             <div className="row">
                 <div className="col">
-                    <div className="card border-info">
+                    <div className="card border-light">
                         <div className="card-header">Monday</div>
                             <div className="icon">
-                                <WeatherIcon code="01d" size={32} />
+                                <WeatherIcon code="01d" size={32} color="#347474"/>
                             </div>
                                 <div className="card-body">
                                     <div className="card-text">
@@ -20,10 +20,10 @@ export default function WeatherForecast() {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card border-info">
+                    <div className="card border-light">
                         <div className="card-header">Monday</div>
                             <div className="icon">
-                                <WeatherIcon code="50d" size={32} />
+                                <WeatherIcon code="50d" size={32} color="#347474" />
                             </div>
                                 <div className="card-body">
                                     <div className="card-text">
@@ -34,10 +34,10 @@ export default function WeatherForecast() {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card border-info">
+                    <div className="card border-light">
                         <div className="card-header">Monday</div>
                             <div className="icon">
-                                <WeatherIcon code="10d" size={32} />
+                                <WeatherIcon code="10d" size={32} color="#347474"/>
                             </div>
                                 <div className="card-body">
                                     <div className="card-text">

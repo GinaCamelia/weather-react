@@ -18,7 +18,7 @@ export default function WeatherInfo(props) {
                     </span> 
                     <br />
                          <WeatherTemperature celsius={props.data.temperature} />
-                         <WeatherIcon code={props.data.icon} size={48} rel="noreferrer" />
+                         <WeatherIcon code={props.data.icon} size={48} rel="noreferrer" color="#347474" />
                        <span className="description text-capitalize text-start">{props.data.description}
                        </span>
                      </span>
@@ -26,19 +26,19 @@ export default function WeatherInfo(props) {
           <div className="col-sm-6">
             <span className="square">
               <div className="col-sm">
-                       Wind: <span className="wind">{Math.round(props.data.wind)} km/h
+                      <strong>Wind:</strong> <span className="wind">{Math.round(props.data.wind)} km/h
                             </span>
                             <br /></div>
               <div className="col-sm">
-                        Pressure: <span className="pressure">{Math.round(props.data.pressure)}mHg
+              <strong>Pressure:</strong> <span className="pressure">{Math.round(props.data.pressure)}mHg
                                   </span>
                                   <br /></div>
               <div className="col-sm">
-                        Humidity: <span className="humidity">{Math.round(props.data.humidity)}%
+              <strong>Humidity:</strong> <span className="humidity">{Math.round(props.data.humidity)}%
                         </span>
                         <br /></div>
               <div className="col-sm">
-                         Max-Temp: <span className="feels-like">{Math.round(props.data.MaxTemp)}ºC
+              <strong>Max-Temp:</strong> <span className="feels-like">{Math.round(props.data.MaxTemp)}ºC
                          </span></div> 
              </span>
           </div>
