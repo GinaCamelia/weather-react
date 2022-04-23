@@ -7,7 +7,7 @@ export default function WeatherInfo(props) {
     return (
         <div className="WeatherInfo">
             <div className="container">
-                <div className="row mt-5 mb-5">
+                <div className="row mt-5 mb-4">
                   <div className="col-sm-6">
                     <span className="circle" id="display-input">
                       <span className="day"></span>
@@ -16,8 +16,8 @@ export default function WeatherInfo(props) {
                         </span>
                       <span className="city">{props.data.city}</span> <br />
                       <WeatherTemperature celsius={props.data.temperature} />
-                      <WeatherIcon code={props.data.icon} rel="noreferrer" />
-                      <span className="description text-capitalize mt-1">{props.data.description}</span>
+                      <WeatherIcon code={props.data.icon} size={48} rel="noreferrer" />
+                      <span className="description text-capitalize text-start">{props.data.description}</span>
                     </span>
                   </div>
                   <div className="col-sm-6">

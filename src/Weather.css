@@ -70,19 +70,21 @@ body {
     font-size: 10px;
   }
   .circle {
-    display: flex;
-    justify-content: center;
-    display: block;
+    display: table;
+    text-align: left;
     margin: 0 auto;
-    text-align: center;
   }
   .square {
     display: table;
+    text-align: left;
     margin: 0 auto;
+    margin-top: 10px;
+    line-height: 35px;
+    border: 1px solid #08CAF0;
+    border-radius: 5px;
     padding-inline-end: 0;
-    padding: 5px;
-    padding-bottom: 20px;
-    max-width: 75%;
+    padding: 15px;
+    max-width: 85%;
   }
   .card-title {
     font-size: 40px;
@@ -115,7 +117,7 @@ body {
     text-align: center;
   }
   .card-header {
-  font-size: 15px; 
+  font-size: 16px; 
   text-align: center; 
   }
   .card-text {
@@ -123,22 +125,29 @@ body {
     text-align: center;
   }
   canvas {
-    display: block;
+    text-align: left;
     margin: 0 auto;
-    margin-top: 6px;
-    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .icon {
+    margin-top: 10px;
+  }
+  .description {
+    display: table;
+    margin-right: auto;
   }
   .temp-max {
     opacity: 0.5;
   }
   .city {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
   }
   .temp {
     font-size: 30px;
     font-weight: bold;
-    line-height: 45px;
+    line-height: 43px;
     padding-left: 5px;
     vertical-align: top;
   }

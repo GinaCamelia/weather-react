@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 import "./Weather.css";
 
 export default function Weather(props) {
-    const [weatherData, setWeatherData] = useState({ ready: false });
+    const [weatherData, setWeatherData] = useState ({ ready: false });
     const [city, setCity] = useState(props.defaultCity);
 
     function displayWeather(response) {
@@ -35,38 +36,40 @@ function handleCityChange(event) {
   setCity(event.target.value);
 }
 
-    if (weatherData.ready) {
-        return (
-            <div className="Weather">
-                <div className="border">
-                <div className="input-group">
-                    <form onSubmit = {handleSubmit} id="search-form">
-                         <input
-                           type="search"
-                           className="form-control mb-1"
-                           id="search-text-input"
-                           placeholder="Enter a city"
-                           onChange = {handleCityChange}
-                           aria-label="Enter a city"
-                           aria-describedby="basic-addon2"
-                         />
-                       <div className="input-group-append"> 
-                        <button 
-                           type="Submit" 
-                           value="Search" 
-                           className="btn btn-outline-secondary primary">Search</button>
-                        <button
-                        type="button" 
-                        className="btn btn-outline-secondary second">Location</button>
-                       </div>
-                    </form>
-                </div>
+if (weatherData.ready) {
+    return (
+      <div className="Weather">
+        <div className="border">
+          <div className="input-group">
+            <form onSubmit = {handleSubmit} id="search-form">
+              <input
+                type="search"
+                className="form-control mb-1"
+                id="search-text-input"
+                placeholder="Enter a city"
+                onChange = {handleCityChange}
+                aria-label="Enter a city"
+                aria-describedby="basic-addon2" />
+                  <div className="input-group-append"> 
+                    <button 
+                      type="Submit" 
+                      value="Search" 
+                      className="btn btn-outline-secondary primary">Search
+                    </button>
+                      <button
+                      type="button" 
+                      className="btn btn-outline-secondary second">Location
+                      </button>
+                  </div>
+            </form>
+          </div>
                 <WeatherInfo data={weatherData} />
-            </div>
-            <br />
-            </div>
-            );
-        } else {
-          search();
+                <WeatherForecast />
+        </div>
+        <br />
+      </div>
+    );
+} else {
+    search();
         }
       }
