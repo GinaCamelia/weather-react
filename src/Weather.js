@@ -58,10 +58,6 @@ if (weatherData.ready) {
                       value="Search" 
                       className="btn btn-outline-secondary primary">Search
                     </button>
-                      <button
-                      type="button" 
-                      className="btn btn-outline-secondary second">Location
-                      </button>
                   </div>
             </form>
           </div>
