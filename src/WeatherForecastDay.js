@@ -22,18 +22,16 @@ export default function WeatherForecastDay(props) {
 
     return (
         <div className="WeatherForecastDay">
-            <div className="card border-light">
-                <div className="card-header">{day()}</div>
-                    <div className="icon">
-                        <WeatherIcon code={props.data.weather[0].icon} size={32} color="#347474"/>
-                    </div>
-                                <div className="card-body">
-                                    <div className="card-text">
+            <div className="card border-light bg-transparent mb-2">
+                <div className="card-header bg-transparent">{day()}</div>
+                    <div className="icon"><WeatherIcon code={props.data.weather[0].icon} size={32} color="#347474"/></div>
+                                <div className="card-body bg-transparent">
+                                    <div className="card-text bg-transparent">
                                         <span className="temp-min">{minTemperature()} | </span>
                                         <span className="temp-max">{maxTemperature()} </span>
                                     </div>
                                 </div>
-            </div>
-        </div>
-    );
-}
+                            </div>
+                       </div>
+        );
+    }

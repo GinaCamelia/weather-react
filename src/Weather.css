@@ -50,10 +50,12 @@ body {
   }
   .form-control {
     border: 1px solid #347474 !important;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   }
   .btn-outline-secondary.second {
     background-color: white;
     border: 1px solid #347474 !important;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   }
   .btn-outline-secondary.second:hover {
     background-color: #347474;
@@ -62,6 +64,7 @@ body {
   .btn-outline-secondary.primary {
     background-color: white;
     border: 1px solid #347474 !important;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   }
   .btn-outline-secondary.primary:hover {
     background-color: #347474;
@@ -114,8 +117,6 @@ body {
   }
   .border-light {
     text-align: center;
-    border: 1px solid #347474 !important;
-    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   }
   .card-header {
   font-size: 16px; 

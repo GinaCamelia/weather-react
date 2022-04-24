@@ -30,7 +30,7 @@ export default function WeatherInfo(props) {
                             </span>
                             <br /></div>
               <div className="col-sm">
-              <strong>Pressure:</strong> <span className="pressure">{Math.round(props.data.pressure)}mHg
+              <strong>Pressure:</strong> <span className="pressure">{Math.round(props.data.pressure)} mHg
                                   </span>
                                   <br /></div>
               <div className="col-sm">
